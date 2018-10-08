@@ -1,6 +1,6 @@
 # Data Analysis & SQL: Dognition’s Data in MySQL 
 # (Summer 2018)
-• To design, build and query Dognition’s database from a csv doc of Dognition test records.
+• Design, build and query Dognition’s database from a csv doc of Dognition test records.
 
 • Learn Dognition’s dataset by Tableau; then design a Relational Database for Dognition with ER diagram
 and relational schema.
@@ -17,6 +17,8 @@ tests.csv,
 users1.csv, 
 users2.csv, 
 dogs.csv
+
+Create my Dognition Database: Create_Database.sql
 
 ## Exercise for SQL in another more complex Dognition DataBase 
 Exercise_01_Look_at_DognitionData.py
