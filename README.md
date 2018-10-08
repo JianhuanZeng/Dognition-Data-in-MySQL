@@ -6,6 +6,7 @@ and relational schema.
 
 ## Design my Dognition database
 dogER.erdplus: ER diagram
+
 dogRS.erdplus: relational schema
 
 ## Build the database in MySQL with tables
