@@ -4,7 +4,7 @@
 and relational schema.
 • Create a Dognition’s database by MySQL and implement SQL to do some queries.
 
-## design my Dognition database
+## Design my Dognition database
 dogER.erdplus: ER diagram
 dogRS.erdplus: relational schema
 
