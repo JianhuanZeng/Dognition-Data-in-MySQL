@@ -1,3 +1,4 @@
+# A Project
 # Data Analysis & SQL: Dognition’s Data in MySQL 
 # (Summer 2018)
 • Design, build and query Dognition’s database from a csv doc of Dognition test records.
@@ -12,7 +13,7 @@ dogER.erdplus: ER diagram
 dogRS.erdplus: relational schema
 
 ## Build the database in MySQL with tables
-split the csv doc into 4 tables:
+Split the csv doc into 4 tables:
 tests.csv, 
 users1.csv, 
 users2.csv, 
