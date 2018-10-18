@@ -4,8 +4,9 @@
 • Design, build and query Dognition’s database from a csv doc of Dognition test records.
 
 • Learn Dognition’s dataset by Tableau; then design a Relational Database for Dognition with ER diagram
-and relational schema.
-• Create a Dognition’s database by MySQL and implement SQL to do some queries.
+and relational schema; create a Dognition’s database by MySQL
+
+• Implement SQL to learn more about different kinds of dogs and what kind of users with dogs are more interested in Dognition.
 
 ## Design my Dognition database
 dogER.erdplus: ER diagram
