@@ -6,7 +6,7 @@ and relational schema; create a Dognition’s database by MySQL<br/>
 • Implement SQL to learn more about different kinds of dogs and what kind of users with dogs are more interested in Dognition.
 
 ## EDA
-Tableau
+Tableau, Python(Pandas, Matplotlib)
 
 ## Design my Dognition database
 dogER.erdplus: ER diagram<br/>
