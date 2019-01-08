@@ -19,7 +19,7 @@ dogRS.erdplus: relational schema
   users2.csv, <br/>
   dogs.csv<br/>
 2. Create my Dognition Database
-3. Query my data
+3. Query in database
 
 
 
