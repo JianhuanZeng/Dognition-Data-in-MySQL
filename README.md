@@ -1,9 +1,11 @@
 # Data Analysis & SQL: Dognition’s Data in MySQL 
 (Summer 2018)<br/>
-• Design, build and query Dognition’s database from a csv doc of Dognition test records.<br/>
-• Learn Dognition’s dataset by Tableau; then design a Relational Database for Dognition with ER diagram
-and relational schema; create a Dognition’s database by MySQL<br/>
+Data Analysis & SQL: Dognition’s Data in MySQL (Summer 2018)
+• Do exploratory data analysis for  Dognition test records, then Design, build and query Dognition’s database from records.<br/>
+• Learn Dognition’s dataset by Tableau; then design a Relational Database for Dognition with ER diagram and relational schema; create a Dognition’s database by MySQL<br/>
 • Implement SQL to learn more about different kinds of dogs and what kind of users with dogs are more interested in Dognition.
+https://github.com/JianhuanZeng/Dognition-Data-in-MySQL<br/>
+
 
 1. EDA
 Tableau, Python(Pandas, Matplotlib)<br/>
