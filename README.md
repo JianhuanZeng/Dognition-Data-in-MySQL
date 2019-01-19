@@ -15,14 +15,17 @@ dognitionER.erdplus: ER diagram<br/>
 dognitionRS.erdplus: relational schema<br/>
 
 3. Build the database in MySQL with tables<br/>
-  (1). Split the csv doc into 4 tables:<br/>
+  (1). Split the csv doc into 3 tables:<br/>
     tests.csv, <br/>
-    users1.csv, <br/>
-    users2.csv, <br/>
+    users.csv, <br/>
     dogs.csv<br/>
   (2). Create my Dognition Database<br/>
   
 4. Queries in database<br/>
+  (1). look at database<br/>
+  (2). summarize<br/>
+  (3). customer service<br/>
+  (4). learn more about dogs<br/>
 
 
 
