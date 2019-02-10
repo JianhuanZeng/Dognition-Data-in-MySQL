@@ -1,3 +1,10 @@
+/* look at tables*/
+SHOW columns FROM dogs
+DESCRIBE reviews
+DESCRIBE users
+SELECT breed FROM dogs LIMIT 10;
+SELECT * FROM reviews LIMIT 5, 10;
+SELECT activity_type, created_at, updated_at FROM site_activities LIMIT 49,10;
 
 /*  retrieve the Dog ID, subcategory_name, and test_name fields of the first 10 reviews entered in the Reviews table to be submitted in 2014 */
 SELECT dog_guid, subcategory_name,  test_name
@@ -5,13 +12,15 @@ FROM reviews
 WHERE YEAR(created_at)= '2014'
 LIMIT 10;
 
-/*  all of the User IDs of customers who have female dogs whose breed includes the word "terrier" somewhere in its name */
+/*  all of the User IDs of customers who have female dogs 
+whose breed includes the word "terrier" somewhere in its name */
 SELECT user_guid 
 FROM dogs
 WHERE gender='female' AND (breed LIKE '%terrier%')  /*  WHERE gender=' ' AND CHARINDEX('terrier', breed) > 0 */
 LIMIT 10;
 
-/* select the Dog ID, test name, and subcategory associated with each completed test for the first 100 tests entered in October, 2014 */
+/* select the Dog ID, test name, and subcategory associated with each completed test 
+for the first 100 tests entered in October, 2014 */
 SELECT dog_guid, test_name, subcategory_name
 FROM complete_tests
 WHERE YEAR(created_at)= '2014' AND MONTH(created_at)= '10'
