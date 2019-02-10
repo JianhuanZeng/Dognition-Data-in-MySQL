@@ -63,17 +63,31 @@ LIMIT 20;
 
 
 /* we want to know which Dognition customers received access to Dognition's first four tests for free. */
-SELECT user_guid 
-FROM users 
+SELECT user_guid FROM users 
 WHERE free_start_user=1;
 
 /*  To select only the rows that have non-null data you could query:  */
-SELECT user_guid 
-FROM users 
+SELECT user_guid FROM users 
 WHERE free_start_user IS NOT NULL;
 
 /*  the customers who bought annual subscriptions */
-SELECT user_guid 
-FROM users 
+SELECT user_guid FROM users 
 WHERE membership_type=2
 LIMIT 100;
+
+/* others */
+SELECT start_time AS "exam start time" FROM exam_answers;
+
+SELECT DISTINCT user_guid, state, membership_type FROM users 
+  WHERE country="US" AND state IS NOT NULL AND membership_type IS NOT NULL
+  ORDER BY membership_type DESC state ASC;
+  
+non_us = SELECT DISTINCT user_guid, country, membership_type FROM users WHERE country!="US";
+non_us.csv('non_us.csv');
+
+NC_yearly_after_03_01_2014 = DISTINCT user_guid, state, created_at FROM users 
+  WHERE membership_type=2 AND country="US" AND state="NC" AND created_at>'2014-03-01'
+  ORDER BY created_at ASC;
+NC_yearly_after_03_01_2014.csv('NC_yearly_after_03_01_2014.csv');
+
+SELECT DISTINCT UPPER(breed) FROM dogs ORDER BY breed;
