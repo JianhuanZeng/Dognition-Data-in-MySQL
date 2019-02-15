@@ -20,3 +20,5 @@ SELECT dog_guid, TIMESTAMPDIFF(minute,start_time,end_time) AS duration
   FROM exam_answers LIMIT 1000;
 SELECT MIN(TIMESTAMPDIFF(minute,start_time,end_time)) AS MINduration, 
   MAX(TIMESTAMPDIFF(minute, start_time, end_time)) AS MAXduration FROM exam_answers;
+SELECT AVG(TIMESTAMPDIFF(minute,start_time,end_time)) AS AVGduration, 
+  FROM exam_answers WHERE TIMESTAMPDIFF(minute,start_time,end_time)>0;
